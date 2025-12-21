@@ -100,11 +100,11 @@
 
 <!-- Panel Top #08 -->
 <nav class="panel top">
-  <div class="sections desktop" style="display: flex; align-items: center; justify-content: space-between; padding: 20px 50px;">
+  <div class="sections desktop" style="display: flex; align-items: center; justify-content: space-between; padding: 20px 80px; box-sizing: border-box;">
     
-    <div class="left">
-      <div title="CD Heavy Machinery" style="display: flex; align-items: center; gap: 15px; cursor: pointer;">
-        <svg style="width: 45px; height: 45px; fill: #ffffff;">
+    <div class="left" style="flex-shrink: 0;">
+      <div title="CD Heavy Machinery" style="display: flex; align-items: center; gap: 12px; cursor: pointer;">
+        <svg style="width: 40px; height: 40px; fill: #ffffff;">
           <use xlink:href="#logo"></use>
         </svg>
         <span style="
@@ -112,22 +112,20 @@
           font-weight: 800;
           font-size: 28px;
           color: #ffffff; 
-          letter-spacing: -0.01em;
           text-transform: uppercase;
           white-space: nowrap;
           line-height: 1;
-          text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
           ">
-          CD <span style="color: #F4B400;">Heavy</span> Machinery
+          CD Heavy Machinery
         </span>
       </div>
     </div>
 
-    <div class="right">
+    <div class="right" style="margin-right: 20px;">
       <ul class="menu uppercase" style="
         display: flex; 
         align-items: center; 
-        gap: 35px; 
+        gap: 25px; /* Reduced gap slightly to ensure fit */
         list-style: none; 
         margin: 0; 
         padding: 0;
@@ -137,7 +135,7 @@
             text-decoration: none;
             color: #ffffff;
             font-weight: 600; 
-            letter-spacing: 0.15em; 
+            letter-spacing: 0.1em; 
             font-size: 13px;
           ">About</a>
         </li>
@@ -146,7 +144,7 @@
             text-decoration: none;
             color: #ffffff;
             font-weight: 600; 
-            letter-spacing: 0.15em; 
+            letter-spacing: 0.1em; 
             font-size: 13px;
           ">Categories</a>
         </li>
@@ -155,7 +153,7 @@
             text-decoration: none;
             color: #ffffff;
             font-weight: 600; 
-            letter-spacing: 0.15em; 
+            letter-spacing: 0.1em; 
             font-size: 13px;
           ">Latest Arrivals</a>
         </li>
@@ -163,30 +161,19 @@
           <a href="#contact" style="
             text-decoration: none;
             font-weight: 800; 
-            letter-spacing: 0.1em; 
             font-size: 13px; 
             color: #1e293b; 
             background: #F4B400; 
-            padding: 12px 25px;
-            border-radius: 50px;
-            box-shadow: 0 4px 15px rgba(244, 180, 0, 0.4);
+            padding: 10px 22px;
+            border-radius: 4px; /* Squared industrial look fits better in tight spaces */
             display: inline-block;
+            white-space: nowrap;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
           ">Contact Us</a>
         </li>
       </ul>
     </div>
 
-  </div>
-
-  <div class="sections compact hidden">
-    <div class="left">
-        <svg style="width:82px;height:24px;fill:#ffffff;"><use xlink:href="#logo"></use></svg>
-    </div>
-    <div class="right">
-        <span class="button actionButton sidebarTrigger" data-sidebar-id="1">
-            <svg style="fill:#ffffff;"><use xlink:href="#menu"></use></svg>
-        </span>
-    </div>
   </div>
 </nav>
 
